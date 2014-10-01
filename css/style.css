@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: LightGray;
 }
 ol, ul {
 	list-style: none;
@@ -45,4 +46,45 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+div {
+	border: 1px solid Chocolate;
+}
+.content {
+ 	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+  	padding: 0px 15px;
+}
+.top-navigation {
+	background-color: #fff;
+}
+.top-navigation > .content {
+	height: 70px;
+	width: 970px;
+	margin: 0 auto;
+}
+.top-navigation .logo {
+	height: 70px;
+}
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: .03em;
+	margin-top: 25px;
+	-webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
+}
+.top-navigation .links li:hover {
+	color: #333333;
+	cursor: pointer;
+}
+.top-navigation .links li.active {
+	color: #4c5058;
+	font-weight: 600;
 }
