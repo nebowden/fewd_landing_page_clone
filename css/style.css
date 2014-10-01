@@ -88,3 +88,11 @@ div {
 	color: #4c5058;
 	font-weight: 600;
 }
+.introduction {
+	background: url('../img/first-background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 940px;
+}
