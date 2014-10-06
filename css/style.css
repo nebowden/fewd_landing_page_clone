@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -55,21 +56,18 @@ div {
   	-moz-box-sizing: border-box;
   	box-sizing: border-box;
   	padding: 0px 15px;
+  	height: 70px;
+	width: 970px;
+	margin: 0 auto;
 }
 .top-navigation {
 	background-color: #fff;
-}
-.top-navigation > .content {
-	height: 70px;
-	width: 970px;
-	margin: 0 auto;
 }
 .top-navigation .logo {
 	height: 70px;
 }
 .top-navigation .links {
 	float: right;
-	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: .03em;
@@ -95,4 +93,88 @@ div {
   	-o-background-size: cover;
   	background-size: cover;
   	height: 940px;
+  	color: #fff;
+  	overflow: auto;
+	font-weight: lighter;
+}
+.introduction > .content {
+	margin-top: 360px;
+	height: auto;
+}
+.introduction h1, .introduction h3 {
+	text-align: center;
+}
+.introduction h1 {
+	font-size: 47px;
+}
+.introduction h3 {
+	font-size: 24px;
+	margin-top: 30px;
+}
+.introduction .buttons {
+	margin-top: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.buttons button {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 16px 26px;
+	line-height: 1.33;
+	color: #fff;
+	font-size: 18px;
+	font-weight: lighter;
+	background-color: #f15a29;
+}
+.buttons button:hover, .introduction .watch > span:hover {
+	cursor: pointer;	
+}
+.buttons button:hover {
+	background-color: #d9400e;
+}
+.introduction .watch > span:hover {
+	opacity: .8;
+}
+.introduction .half {
+	display: inline-block;
+}
+.introduction .watch {
+	margin-left: 30px;
+	width:160px;
+	height:35px;
+}
+.introduction .watch > span {
+	display: flex;
+	align-items: center;
+}
+.introduction .play-icon {
+	margin-right: 10px;
+}
+.down-arrow {
+	width:52px;
+	margin-top: 275px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-animation: bounce 2s infinite;
+  	-moz-animation: bounce 2s infinite;
+  	-o-animation: bounce 2s infinite;
+  	animation: bounce 2s infinite;
+}
+@-webkit-keyframes bounce {
+	0%, 100% {
+		margin-top: 275px;
+	}
+	50% {
+		margin-top: 300px;
+	}	
+}
+@keyframes bounce {
+	0%, 100% {
+		margin-top: 275px;
+	}
+	50% {
+		margin-top: 300px;
+	}
 }
