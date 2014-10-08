@@ -32,6 +32,7 @@ body {
 	line-height: 1;
 	background-color: #fff;
 	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 ol, ul {
 	list-style: none;
@@ -74,7 +75,6 @@ div {
 	color: #838994;
 	letter-spacing: .03em;
 	margin-top: 25px;
-	-webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
 	display: inline-block;
@@ -121,7 +121,7 @@ div {
 	justify-content: center;
 	align-items: center;
 }
-.buttons button {
+.buttons button, .buy-now button {
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
@@ -132,10 +132,10 @@ div {
 	font-weight: lighter;
 	background-color: #f15a29;
 }
-.buttons button:hover, .introduction .watch > span:hover, .down-arrow:hover {
+.buttons button:hover, .introduction .watch > span:hover, .down-arrow:hover, .buy-now button:hover {
 	cursor: pointer;	
 }
-.buttons button:hover {
+.buttons button:hover, .buy-now button:hover {
 	background-color: #d9400e;
 }
 .introduction .watch > span:hover {
@@ -189,7 +189,9 @@ div {
 }
 .cases > .content {
 	margin-top: 150px;
+	margin-bottom: 150px;
 	height: 360px;
+	color: #4c5058;
 }
 .cases .device-box {
 	margin-top: 60px;
@@ -211,7 +213,7 @@ div {
 	width: 115px;
 }
 .devices > h3 {
-	font-size: 25px;
+	font-size: 24px;
 	margin-top: 35px;
 }
 .devices > p {
@@ -220,6 +222,35 @@ div {
 	padding-right: 20px;
 	padding-left: 20px;
 	line-height: 150%;
+}
+.buy-now {
+	height: 740px;
+	background: url('../img/buy-now-bg.jpg');
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-position: center bottom;
+  	overflow: auto;
+	padding-top: 70px;
+}
+.buy-now > .content {
+	margin-top: 60px;
+}
+.buy-now .left-box {
+	float: left;
+	width: 284px;
+	letter-spacing: .03em;
+}
+.buy-now h3 {
+	font-size: 24px;
+	color:#f15a29;
+}
+.buy-now p {
+	font-size: 18px;
+	line-height: 150%;
+	margin: 25px 0;
+	color: #4c5058;
 }
 footer {
 	margin-top: 50px;
