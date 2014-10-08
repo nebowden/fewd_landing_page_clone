@@ -49,9 +49,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-div {
+/* div {
 	border: 1px solid Chocolate;
-}
+} */
 .content {
  	-webkit-box-sizing: border-box;
   	-moz-box-sizing: border-box;
@@ -203,9 +203,6 @@ div {
 	width: 33.3333333%;
 	display: inline-block;
 	text-align: center;
-	/*styles to assist with debugging */
-	border: 1px solid black;
-	box-sizing: border-box;
 	height: 4em;
 }
 .device-icon, .coffee-icon, .refill-icon {
