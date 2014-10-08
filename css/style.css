@@ -95,13 +95,14 @@ div {
   	-o-background-size: cover;
   	background-size: cover;
   	background-position: center bottom;
-  	height: 940px;
+  	height: 960px;
   	color: #fff;
   	overflow: auto;
 	font-weight: lighter;
+	padding-top: 70px;
 }
 .introduction > .content {
-	margin-top: 360px;
+	margin-top: 370px;
 	height: auto;
 }
 .introduction h1, .introduction h3 {
@@ -131,7 +132,7 @@ div {
 	font-weight: lighter;
 	background-color: #f15a29;
 }
-.buttons button:hover, .introduction .watch > span:hover {
+.buttons button:hover, .introduction .watch > span:hover, .down-arrow:hover {
 	cursor: pointer;	
 }
 .buttons button:hover {
@@ -188,7 +189,7 @@ div {
 }
 .cases > .content {
 	margin-top: 150px;
-	height: auto;
+	height: 360px;
 }
 .cases .device-box {
 	margin-top: 60px;
@@ -219,4 +220,49 @@ div {
 	padding-right: 20px;
 	padding-left: 20px;
 	line-height: 150%;
+}
+footer {
+	margin-top: 50px;
+}
+footer > .content {
+	text-align: center;
+}
+footer .icons {
+	margin: 17px auto;
+}
+footer .icons > li {
+	display: inline-block;
+	height:40px;
+	width: 40px;
+	text-align: center;
+	border: 1px solid #eaebec;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+footer .icons > li:hover {
+	cursor: pointer;
+}
+.fa {
+	margin-top: 13px;
+}
+.fa-twitter {
+	color: #3ea1ec;
+}
+.fa-facebook {
+	color: #445b93;
+}
+.fa-instagram {
+	color: #386589;
+}
+footer > .content > .copyright, footer > .content > .join {
+	font-size: 16px;
+	letter-spacing: .03em;
+}
+footer > .content > .copyright {
+	color: #838994;
+}
+footer .join {
+	font-weight: 600;
+	color: #4c5058;
+	margin-top: 17px;
 }
